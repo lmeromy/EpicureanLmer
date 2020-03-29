@@ -1,12 +1,11 @@
 import React from "react";
 import "./App.css";
-import Header from "./Header/Header";
+import Home from "./Home/Home";
 
 function App() {
   return (
     <div className="App">
-      <Header />
-      <div className="nav-bar">NavBar</div>
+      <Home />
     </div>
   );
 }

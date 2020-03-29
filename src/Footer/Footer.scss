@@ -1,0 +1,19 @@
+.footer-main {
+  font-size: calc(10px + 2vmin);
+  font-weight: 700;
+  font-style: italic;
+  color: #707070;
+  padding: 20px;
+}
+
+.footer-sub {
+  font-size: calc(10px + 1vmin);
+  font-weight: 300;
+  font-style: italic;
+  color: #2c4bc4;
+  padding: 20px;
+
+  a {
+    text-decoration: none;
+  }
+}

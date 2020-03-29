@@ -1,0 +1,8 @@
+.nav-bar {
+  border-top: #2c4bc4 1px solid;
+  border-bottom: #2c4bc4 1px solid;
+  width: 80%;
+  display: flex;
+  justify-content: space-between;
+  margin: auto;
+}
