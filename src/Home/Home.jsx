@@ -13,29 +13,29 @@ const Home = () => {
     {
       id: 1,
       info: "Destination Logo",
-      path: DestinationImage
+      path: DestinationImage,
     },
     {
       id: 2,
       info: "Maps Logo",
-      path: MapsImage
+      path: MapsImage,
     },
     {
       id: 3,
       info: "About Lmer Logo",
-      path: AboutImage
+      path: AboutImage,
     },
     {
       id: 4,
       info: "Other Cool Stuff Logo",
-      path: OtherCoolStuffImage
-    }
+      path: OtherCoolStuffImage,
+    },
   ];
   return (
     <div className="layout">
       <Layout />
       <div className="main-home">
-        {homeImgArray.map(image => (
+        {homeImgArray.map((image) => (
           <HomeIcons key={image.id} image={image} />
         ))}
       </div>

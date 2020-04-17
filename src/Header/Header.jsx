@@ -1,12 +1,17 @@
 import React from "react";
-import "./Header.css";
+import { Link } from "react-router-dom";
+import "./Header.scss";
 
 const Header = () => {
   return (
-    <>
-      <div className="header-main">Epicurean Lmer</div>
-      <div className="header-sub">Lmer's curated foodie/travel guide</div>
-    </>
+    <div className="header-container">
+      <div className="header-main">
+        <Link to="/">Epicurean Lmer</Link>
+      </div>
+      <div className="header-sub">
+        <Link to="/">Lmer's curated foodie/travel guide</Link>
+      </div>
+    </div>
   );
 };
 

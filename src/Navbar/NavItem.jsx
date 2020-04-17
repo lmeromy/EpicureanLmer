@@ -1,10 +1,14 @@
 import React from "react";
-import "./NavItem.css";
+import { Link } from "react-router-dom";
 
-const NavItem = ({ name }) => {
+import "./NavItem.scss";
+
+const NavItem = ({ name, path }) => {
   return (
     <>
-      <div className="nav-item">{name}</div>
+      <div className="nav-item">
+        <Link to={path}>{name}</Link>
+      </div>
     </>
   );
 };
