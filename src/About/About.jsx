@@ -10,7 +10,7 @@ export const About = () => {
       <Layout />
       <div className="main-about">
         <div className="about-text">
-          <h3>All about Lmer</h3>
+          <h3>Who am I? Why did I do this?</h3>
           <p>
             Hi! I’m Lmer. I am someone who enjoys exploring new and foreign
             places, especially via hiking and eating. I have the excellent
@@ -28,7 +28,11 @@ export const About = () => {
             transform my original spreadsheet into something much nicer and more
             interesting to look at. I hope you enjoy!
           </p>
-          <div className="leah-links">GITHUB LINKEDIN PORTFOLIO</div>
+          <div className="leah-links">
+            <a href="https://github.com/lmeromy">GITHUB --</a>
+            <a href="https://www.linkedin.com/in/leah-meromy/"> LINKEDIN --</a>
+            <a href="https://www.linkedin.com/in/leah-meromy/">PORTFOLIO</a>
+          </div>
         </div>
         <div className="about-icon">
           <img src={AboutMeImage} alt="All about Lmer" />
