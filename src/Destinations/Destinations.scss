@@ -1,16 +1,21 @@
 .main-destinations {
-  margin: auto;
   text-align: center;
 }
 
-.country-container {
+.countries-container {
+  width: 80%;
+  margin: auto;
   display: flex;
   flex-wrap: wrap;
+  justify-content: center;
 }
 
 .single-country {
+  padding: 20px;
+
   img {
     width: 250px;
     height: auto;
+    border: 1px solid #707070;
   }
 }
