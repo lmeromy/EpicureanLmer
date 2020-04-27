@@ -6,7 +6,7 @@ const Navbar = () => {
   const fakeNavItems = [
     { id: 1, label: "Destinations", path: "/destinations" },
     { id: 2, label: "Maps", path: "/maps" },
-    { id: 3, label: "About Me", path: "/aboutlmer" },
+    { id: 3, label: "About", path: "/aboutlmer" },
     { id: 4, label: "Other Cool Stuff", path: "/othercoolstuff" },
   ];
   return (

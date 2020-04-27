@@ -1,6 +1,8 @@
 import React from "react";
 import Layout from "../Layout/Layout";
 import AboutMeImage from "../images/undraw_exploring.png";
+import GitHubImage from "../images/GitHub-Mark-32px.png";
+import LinkedInImage from "../images/LI-In-Bug.png";
 
 import "./About.scss";
 
@@ -29,9 +31,13 @@ export const About = () => {
             interesting to look at. I hope you enjoy!
           </p>
           <div className="leah-links">
-            <a href="https://github.com/lmeromy">GITHUB --</a>
-            <a href="https://www.linkedin.com/in/leah-meromy/"> LINKEDIN --</a>
-            <a href="https://www.linkedin.com/in/leah-meromy/">PORTFOLIO</a>
+            <a href="https://github.com/lmeromy">
+              <img src={GitHubImage} alt="Github Project Link" />
+            </a>
+            <a href="https://www.linkedin.com/in/leah-meromy/">
+              <img src={LinkedInImage} alt="LinkedIn Link" />
+            </a>
+            {/* <a href="https://www.linkedin.com/in/leah-meromy/">PORTFOLIO Link</a> */}
           </div>
         </div>
         <div className="about-icon">

@@ -1,7 +1,7 @@
 import React from "react";
 import Layout from "../Layout/Layout";
 import { leahCountryInfo } from "./DestinationHelpers";
-import { SingleCountry } from "./SingleCountry";
+import { CountryFlagDisplay } from "./CountryFlagDisplay";
 import { useFetch } from "../Hooks/useFetch";
 import "./Destinations.scss";
 
@@ -25,7 +25,7 @@ export const Destinations = () => {
             ) : (
               <div className="countries-container">
                 {filteredCountries.map((country) => (
-                  <SingleCountry
+                  <CountryFlagDisplay
                     key={country.name}
                     name={country.name}
                     flag={country.flag}
