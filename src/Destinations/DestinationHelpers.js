@@ -2,7 +2,7 @@ const traveledCountries = [
   "United States of America",
   "Canada",
   "Mexico",
-  "United Kingdom",
+  "United Kingdom of Great Britain and Northern Ireland",
   "France",
   "Israel",
   "Turkey",
@@ -18,6 +18,8 @@ const traveledCountries = [
   "Argentina",
   "Finland",
   "Estonia",
+  "Switzerland",
+  "Iceland",
 ];
 
 export const leahCountryInfo = (countryArray) => {
